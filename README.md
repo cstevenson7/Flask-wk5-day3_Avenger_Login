@@ -7,7 +7,7 @@ D:\Coding_Temple\week5\day1\Project>python -m venv avengers_env
 # JUST  DO  THIS to get into the VE
 D:\Coding_Temple\week5\day1\Project>avengers_env\scripts\activate.bat
 
-(fave_five_env) D:\Coding_Temple\week5\day1\Project>pip install flask
+
 
 set FLASK_APP=app.py
 
@@ -41,3 +41,5 @@ flask db upgrade
  ironman tony im@gmail.com 123456798520
 
  thor 9999	thor@gmail.com	780-999-5555
+
+Hulk green	hulk@email.com	999-888-7777

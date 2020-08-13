@@ -19,6 +19,12 @@ from flask_login import login_required, login_user, current_user, logout_user
 def home():
     return render_template("home.html")
 
+#HPhone_book route
+@app.route('/phone_book')  # decorator
+@login_required 
+def phone_book():
+    return render_template("phone_book.html")
+
 #Register route
 @app.route('/register', methods= ['GET','POST'])  # decorator
 def register():
@@ -88,3 +94,4 @@ def login():
             return redirect(url_for('login')) # this is a GET request, like a refresh
         
     return render_template('login.html', form = form)
+
